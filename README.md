@@ -1,5 +1,7 @@
 # インテル® OpenVINO™ ツールキット Training Extensionを使ってみる
 
+この内容は[公式レポジトリ](https://github.com/openvinotoolkit/training_extensions/tree/develop/web)を和訳し、かつ、ちょっとしたTipsを追記したものです。
+
 ## Training Extensionとは
 インテル® OpenVINO™ ツールキットが提供している機能の一つであり、主に物体検出のディープラーニングモデルをNo Code（つまりGUI操作のみ）で構築できる機能です。また、最近のアップデートにより、同じくOpenVINOの機能の一つであるGUIアノテーションツールのCVATと統合され、アノテーションからトレーニングまでをGUI操作のみで実施できるようになっております。
 
@@ -110,7 +112,7 @@ docker exec -it cvat bash -ic 'python3 ~/manage.py createsuperuser'
 
 `http://ホストのIPアドレス:8001`
 
-下記ような画面が開けば成功。
+下記ような画面が開けば成功。ツールの使い方は[こちら](how-to-use.md)を参照ください。
 
 ![トップ画面](images/capture_20201126.png)
 
